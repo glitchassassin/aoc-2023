@@ -19,11 +19,12 @@ export const meta: MetaFunction = () => {
 export default function Day1() {
   return (
     <>
-      <h2>
+      <h2>Day 1: Trebuchet?!</h2>
+      <p>
         <Link className="link-light" to="https://adventofcode.com/2023/day/1">
-          Day 1: Trebuchet?!
+          Original
         </Link>
-      </h2>
+      </p>
       <h3>Part One</h3>
       <p>
         The newly-improved calibration document consists of lines of text; each

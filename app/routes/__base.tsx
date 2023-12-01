@@ -11,7 +11,7 @@ export const meta: MetaFunction = () => {
 
 const nav = [
   { url: "/day1", text: "Day 1" },
-  { url: "/day2", text: "Day 2" },
+  // { url: "/day2", text: "Day 2" },
 ];
 
 export default function Index() {
@@ -21,7 +21,19 @@ export default function Index() {
   return (
     <div className="container">
       <Row>
-        <h1>Advent of Code 2023</h1>
+        <Col>
+          <h1>Advent of Code 2023</h1>
+        </Col>
+        <Col>
+          <h1 className="text-end">
+            <Link
+              className="link-light"
+              to="https://github.com/glitchassassin/aoc-2023"
+            >
+              <i className="bi-github" />
+            </Link>
+          </h1>
+        </Col>
       </Row>
       <Row>
         <Col sm={2}>
