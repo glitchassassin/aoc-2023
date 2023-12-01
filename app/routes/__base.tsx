@@ -55,6 +55,14 @@ export default function Index() {
           <Outlet />
         </Col>
       </Row>
+      <Row>
+        <p className="text-end">
+          Built by{" "}
+          <Link className="link-light" to="https://www.jonwinsley.com/">
+            Jon Winsley
+          </Link>
+        </p>
+      </Row>
     </div>
   );
 }
