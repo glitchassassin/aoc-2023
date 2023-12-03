@@ -13,10 +13,10 @@ import {
 } from "~/solutions/day2/solution";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "AoC 2023 | Day 1" }];
+  return [{ title: "AoC 2023 | Day 2" }];
 };
 
-export default function Day1() {
+export default function Day2() {
   return (
     <>
       <h2>Day 2: Cube Conundrum</h2>
