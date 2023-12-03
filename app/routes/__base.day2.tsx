@@ -42,10 +42,9 @@ export default function Day2() {
       <p>
         You play several games and record the information from each game (your
         puzzle input). Each game is listed with its ID number (like the{" "}
-        <code>11</code> in
-        <code>Game 11: ...</code>) followed by a semicolon-separated list of
-        subsets of cubes that were revealed from the bag (like{" "}
-        <code>3 red, 5 green, 4 blue</code>).
+        <code>11</code> in <code>Game 11: ...</code>) followed by a
+        semicolon-separated list of subsets of cubes that were revealed from the
+        bag (like <code>3 red, 5 green, 4 blue</code>).
       </p>
 
       <p>For example, the record of a few games might look like this:</p>
