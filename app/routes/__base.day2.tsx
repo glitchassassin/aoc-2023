@@ -50,7 +50,7 @@ export default function Day1() {
 
       <p>For example, the record of a few games might look like this:</p>
 
-      <DataBlock>{part1Example}</DataBlock>
+      <DataBlock>{part1Example.join("\n")}</DataBlock>
 
       <p>
         In game 1, three sets of cubes are revealed from the bag (and then put
@@ -147,7 +147,7 @@ export default function Day1() {
 
       <p>Again consider the example games from earlier:</p>
 
-      <DataBlock>{part1Example}</DataBlock>
+      <DataBlock>{part1Example.join("\n")}</DataBlock>
 
       <ul>
         <li>
