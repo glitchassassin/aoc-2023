@@ -11,7 +11,7 @@ export const meta: MetaFunction = () => {
 
 const nav = [
   { url: "/day1", text: "Day 1" },
-  // { url: "/day2", text: "Day 2" },
+  { url: "/day2", text: "Day 2" },
 ];
 
 export default function Index() {
