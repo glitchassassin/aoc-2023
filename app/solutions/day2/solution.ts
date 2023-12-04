@@ -4,7 +4,6 @@ const getCount = (color: string, round: string) => {
     return 0;
 }
 const getId = (game: string) => {
-    console.log(game)
     return parseInt(game.match(/Game (\d+)/)![1]);
 }
 

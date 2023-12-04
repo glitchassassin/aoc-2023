@@ -1,10 +1,16 @@
 import type { ReactNode } from "react";
 
-export function DataBlock({ children }: { children: ReactNode }) {
+export function DataBlock({
+  children,
+  wrap,
+}: {
+  children: ReactNode;
+  wrap?: boolean;
+}) {
   return (
     <pre
       className="ps-3 border-start border-5 border-light"
-      style={{ maxHeight: "300px" }}
+      style={{ maxHeight: "300px", whiteSpace: wrap ? "normal" : undefined }}
     >
       {children}
     </pre>

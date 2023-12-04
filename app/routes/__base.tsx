@@ -12,11 +12,11 @@ export const meta: MetaFunction = () => {
 const nav = [
   { url: "/day1", text: "Day 1" },
   { url: "/day2", text: "Day 2" },
+  { url: "/day3", text: "Day 3" },
 ];
 
 export default function Index() {
   const location = useLocation();
-  console.log(location.pathname);
 
   return (
     <div className="container">
