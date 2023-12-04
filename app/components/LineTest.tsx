@@ -1,15 +1,18 @@
+import type { ReactNode } from "react";
+
 export function LineTest<T>({
   line,
   result,
   expected,
 }: {
-  line: string;
+  line: ReactNode;
   result: T;
   expected: T;
 }) {
   return (
     <div>
-      {line}&nbsp;
+      {line}
+      {" - "}
       {result === expected && (
         <span className="text-success">{JSON.stringify(result)} ✓</span>
       )}

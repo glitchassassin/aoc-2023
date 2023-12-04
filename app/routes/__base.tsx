@@ -13,6 +13,7 @@ const nav = [
   { url: "/day1", text: "Day 1" },
   { url: "/day2", text: "Day 2" },
   { url: "/day3", text: "Day 3" },
+  { url: "/day4", text: "Day 4" },
 ];
 
 export default function Index() {
@@ -36,7 +37,7 @@ export default function Index() {
         </Col>
       </Row>
       <Row>
-        <Col sm={2}>
+        <Col sm={2} xl={1}>
           <Nav variant="underline" className="flex-sm-column">
             {nav.map(({ url, text }) => (
               <Nav.Link
@@ -51,7 +52,7 @@ export default function Index() {
             ))}
           </Nav>
         </Col>
-        <Col sm={10}>
+        <Col sm={10} xl={11}>
           <Outlet />
         </Col>
       </Row>
