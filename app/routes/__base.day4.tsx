@@ -17,7 +17,7 @@ export default function Day4() {
     <>
       <h2>Day 4: Scratchcards</h2>
       <p>
-        <Link className="link-light" to="https://adventofcode.com/2023/day/3">
+        <Link className="link-light" to="https://adventofcode.com/2023/day/4">
           Original
         </Link>
       </p>
