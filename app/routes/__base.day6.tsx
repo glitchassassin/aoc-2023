@@ -27,6 +27,19 @@ export default function DisplayProblem() {
             <WaysToWinRace races={part1Example} index={0} expected={4} />
             <WaysToWinRace races={part1Example} index={1} expected={8} />
             <WaysToWinRace races={part1Example} index={2} expected={9} />
+            <p>
+              Algebra!
+              <DataBlock>
+                {`a = time, b = record
+(x + y) = a
+(x * y) > b
+x = a - y
+(a - y) * y > b
+-y^2 + ay > b
+-y^2 + ay - b > 0
+(solve for roots to find the bounds)`}
+              </DataBlock>
+            </p>
             <MarginOfError races={part1Example} expected={288} />
           </>
         }
