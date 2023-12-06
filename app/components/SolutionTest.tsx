@@ -1,10 +1,15 @@
+import { Solution } from "./Solution";
+
 export function SolutionTest<T>({
   result,
   expected,
 }: {
   result: T;
-  expected: T;
+  expected?: T;
 }) {
+  if (expected === undefined) {
+    return <Solution result={result} />;
+  }
   return (
     <div>
       Solution:&nbsp;
