@@ -9,6 +9,7 @@ export default {
     /^rehype.*/,
     /^remark.*/,
     /^unified.*/,
+    /^estree.*/,
     /^unist.*/,
     /^hast.*/,
     /^bail.*/,
