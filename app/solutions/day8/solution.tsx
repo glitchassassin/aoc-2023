@@ -140,7 +140,5 @@ export function SimultaneousNavigateMaps({
 
   const steps = simultaneousNavigateNetwork(network, instructions);
 
-  return (
-    <SolutionTest result={steps.toString()} expected={expected?.toString()} />
-  );
+  return <SolutionTest result={steps} expected={expected} />;
 }
