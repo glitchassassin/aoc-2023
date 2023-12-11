@@ -18,7 +18,7 @@ export const meta: MetaFunction = () => {
 
 export default function DisplayProblem() {
   return (
-    <PuzzleLayout day={DAY} title="Haunted Wasteland">
+    <PuzzleLayout day={DAY} title="Mirage Maintenance">
       <h3 className="pt-3 pb-2">Part One</h3>
       <PuzzleSection
         problemStatement={<ProblemStatement1 />}

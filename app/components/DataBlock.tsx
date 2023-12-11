@@ -9,7 +9,7 @@ export function DataBlock({
 }) {
   return (
     <pre
-      className="ps-3 border-start border-5 border-light"
+      className="ps-3 border-start border-5 border-light lh-1"
       style={{ maxHeight: "300px", whiteSpace: wrap ? "normal" : undefined }}
     >
       {children}

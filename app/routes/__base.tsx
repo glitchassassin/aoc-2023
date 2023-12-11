@@ -19,6 +19,7 @@ const nav = [
   { url: "/day7", text: "Day 7" },
   { url: "/day8", text: "Day 8" },
   { url: "/day9", text: "Day 9" },
+  { url: "/day10", text: "Day 10" },
 ];
 
 export default function Index() {
